@@ -3,13 +3,13 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Chirayu Jain
     tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: image.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: chirayu.jain@tcu.edu
@@ -83,42 +83,43 @@ experiences:
               team and customers on web applications using ASP.net, C#. JavaScript, JQuery, HTML, CSS, and Rest API.
           - The Release Notes feature used an iframe to display the latest advancements the company has made as a pdf loaded from SharePoint. It also showed a notification on the hamburger menu depending on the last time the user viewed the release notes.
           - The Bulk User Edit feature was designed to be used by the admins to give roles and permissions, set of views they can have in the website, to multiple users at a time.
-          
-            - Bullet point
-    
+  
       - role: Team Lead
         time: 08 2022 - 05 2022
         company: TCU, BMW Quarter Horses
         details: |
-          Led a team of 4 developers 
-            - Bullet point
-            - Bullet point
+         - Led a team of 4 developers to develop a one stop aggregated solution for reining horses with data such as
+         name, sire, dam, 2nd dam, 2nd sire, maneuver scores etc.
+         - Scraped data from websites using selenium and python requests; used
+         Vue.js and Vuetify for frontend and Spring Boot for backend.
+         - Implemented features such as search horses by muliple parameters, specific combination of fields, basic CRUD operations etc.
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Superfrog Scheduler
+       # link: "#hook"
+        #technologies: Java (Spring Boot), Vue.js, MySQL, Heroku
+        tagline: "Worked in a team of four to create a scheduling system for TCU’s school mascot for events and functions using
+Vue.js for frontend, Spring Boot for backend, MySQL database and Heroku for deployment."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Android Application
+        #link: "#"
+        tagline: "Developed an Android App on Android Studio to make calls through the default calling app of the device,
+navigate through screens, establish receiving and sending of text messages, and open applications on the phone."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Library Database Management System
+        #link: "#"
+        tagline: "Created a database management system using JDBC with Java on NetBeans and MySQL that collected data
+from the user through a GUI, saved it in the form of tables and related tables on a database on MySQL and performed CRUD operations."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      # - title: Atom
+      #   link: "#"
+      #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      # - title: Delta
+      #   link: "#"
+      #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
